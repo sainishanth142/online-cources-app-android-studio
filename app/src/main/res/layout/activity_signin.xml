@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/rankup"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="180dp"
+                android:layout_weight="1"
+                android:background="@drawable/edtxbg"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:id="@+id/firstname"
+                android:hint="First Name"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:layout_width="180dp"
+                android:layout_weight="1"
+                android:background="@drawable/edtxbg"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/lastname"
+                android:hint="Last Name"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:background="@drawable/edtxbg"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:id="@+id/collegename"
+            android:hint="College Name(optional)"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:background="@drawable/edtxbg"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:id="@+id/registernumber"
+            android:hint="College Register Number(optional)"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:background="@drawable/edtxbg"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:id="@+id/mobilenumber"
+            android:hint="Mobile Number"
+            android:inputType="number"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:background="@drawable/edtxbg"
+            android:padding="10dp"
+            android:inputType="textEmailAddress"
+            android:layout_margin="20dp"
+            android:id="@+id/email"
+            android:hint="Enter your Email"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:background="@drawable/edtxbg"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            android:layout_margin="20dp"
+            android:id="@+id/password"
+            android:hint="Create a Password"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:onClick="register"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Register"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

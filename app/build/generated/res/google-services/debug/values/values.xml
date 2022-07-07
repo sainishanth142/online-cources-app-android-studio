@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1014404864768-5gt7gv8q34qdold4136deqtvtesv1q5f.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://skilldevelopmentapp-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1014404864768</string>
+    <string name="google_api_key" translatable="false">AIzaSyCD9vuRSso3FiTYnPj-bAnGPIFe_o1ohpk</string>
+    <string name="google_app_id" translatable="false">1:1014404864768:android:cacc56cea3a6c54f0671e5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCD9vuRSso3FiTYnPj-bAnGPIFe_o1ohpk</string>
+    <string name="google_storage_bucket" translatable="false">skilldevelopmentapp.appspot.com</string>
+    <string name="project_id" translatable="false">skilldevelopmentapp</string>
+</resources>

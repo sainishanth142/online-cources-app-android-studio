@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dra"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backg"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    tools:context=".home">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/tolcol"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:onClick="opennav"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/menu" />
+            <TextView
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/usname"
+                android:lines="1"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:text="USERNAME"
+                android:textSize="25sp" />
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:onClick="searchbut"
+                android:background="@drawable/search" />
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:id="@+id/menubt"
+                android:onClick="openmenu"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/dots" />
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <androidx.viewpager.widget.ViewPager
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/viewpager"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="fill_parent"
+                    android:id="@+id/recyclerview"
+                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                    android:layout_height="fill_parent"/>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/navd"
+        app:headerLayout="@layout/navh"
+        app:menu="@menu/navmenu"/>
+</androidx.drawerlayout.widget.DrawerLayout>

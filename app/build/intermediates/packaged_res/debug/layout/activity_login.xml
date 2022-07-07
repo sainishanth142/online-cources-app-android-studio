@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/rankup"/>
+            <EditText
+                android:layout_marginTop="50dp"
+                android:layout_width="250dp"
+                android:id="@+id/email"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:hint="user email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="10dp"
+                android:background="@drawable/edtxbg" />
+            <EditText
+                android:layout_marginTop="25dp"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/password"
+                android:layout_gravity="center"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:background="@drawable/edtxbg" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="loginbt"
+                android:layout_marginTop="20dp"
+                android:text="login"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="forgot password?"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:layout_width="287dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:onClick="signinbt"
+                android:text="create a new account" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

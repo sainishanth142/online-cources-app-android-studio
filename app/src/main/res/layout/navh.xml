@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tolcol"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:layout_height="wrap_content"
+        android:autoSizeMaxTextSize="100sp"
+        android:autoSizeMinTextSize="19sp"
+        android:autoSizeStepGranularity="1sp"
+
+        android:text="user name:-sai nishanth"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/collegename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:autoSizeMaxTextSize="100sp"
+        android:autoSizeMinTextSize="20sp"
+        android:autoSizeStepGranularity="1sp"
+
+
+        android:text="college name:-"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/username"
+        app:layout_constraintVertical_bias="0.031" />
+    <TextView
+        android:id="@+id/registerno"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:autoSizeMaxTextSize="100sp"
+        android:autoSizeMinTextSize="20sp"
+        android:autoSizeStepGranularity="1sp"
+        android:lines="1"
+        android:text="user name:-sai nishanth"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/collegename"
+        app:layout_constraintVertical_bias="0.033" />
+
+    <TextView
+        android:id="@+id/mobilenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoSizeMaxTextSize="100sp"
+        android:padding="10dp"
+        android:autoSizeMinTextSize="20sp"
+        android:autoSizeStepGranularity="1sp"
+        android:lines="1"
+        android:text="college name:-"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/registerno"
+        app:layout_constraintVertical_bias="0.031" />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoSizeMaxTextSize="100sp"
+        android:autoSizeMinTextSize="20sp"
+        android:padding="10dp"
+        android:autoSizeStepGranularity="1sp"
+        android:lines="1"
+        android:text="college name:-"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mobilenumber"
+        app:layout_constraintVertical_bias="0.031" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

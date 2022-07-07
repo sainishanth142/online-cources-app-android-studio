@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/online_courses.iml" filepath="$PROJECT_DIR$/.idea/modules/online_courses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/online_courses.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/online_courses.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/online_courses.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/online_courses.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/online_courses.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/online_courses.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/online_courses.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/online_courses.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

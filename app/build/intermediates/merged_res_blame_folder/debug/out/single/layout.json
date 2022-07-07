@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-mergeDebugResources-27:\\layout\\activity_selectexam.xml",
+        "source": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-main-30:\\layout\\activity_selectexam.xml"
+    },
+    {
+        "merged": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-mergeDebugResources-27:\\layout\\homeitem.xml",
+        "source": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-main-30:\\layout\\homeitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-mergeDebugResources-27:\\layout\\activity_viewtopics.xml",
+        "source": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-main-30:\\layout\\activity_viewtopics.xml"
+    },
+    {
+        "merged": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-mergeDebugResources-27:\\layout\\navh.xml",
+        "source": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-main-30:\\layout\\navh.xml"
+    },
+    {
+        "merged": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-mergeDebugResources-27:\\layout\\activity_profile.xml",
+        "source": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-main-30:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-mergeDebugResources-27:\\layout\\activity_exam.xml",
+        "source": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-main-30:\\layout\\activity_exam.xml"
+    },
+    {
+        "merged": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-mergeDebugResources-27:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-main-30:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-mergeDebugResources-27:\\layout\\examquesshowlayout.xml",
+        "source": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-main-30:\\layout\\examquesshowlayout.xml"
+    },
+    {
+        "merged": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-mergeDebugResources-27:\\layout\\showdetailsofcoursesre.xml",
+        "source": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-main-30:\\layout\\showdetailsofcoursesre.xml"
+    },
+    {
+        "merged": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-mergeDebugResources-27:\\layout\\activity_home.xml",
+        "source": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-main-30:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "com.example.onlinecourses.app-mergeDebugResources-27:/layout/activity_home.xml",
+        "source": "com.example.onlinecourses.app-main-30:/layout/activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-mergeDebugResources-27:\\layout\\activity_topics.xml",
+        "source": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-main-30:\\layout\\activity_topics.xml"
+    },
+    {
+        "merged": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-mergeDebugResources-27:\\layout\\viewtopicitem.xml",
+        "source": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-main-30:\\layout\\viewtopicitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-mergeDebugResources-27:\\layout\\itemtextview.xml",
+        "source": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-main-30:\\layout\\itemtextview.xml"
+    },
+    {
+        "merged": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-mergeDebugResources-27:\\layout\\activity_signin.xml",
+        "source": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-main-30:\\layout\\activity_signin.xml"
+    },
+    {
+        "merged": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-mergeDebugResources-27:\\layout\\imageview.xml",
+        "source": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-main-30:\\layout\\imageview.xml"
+    },
+    {
+        "merged": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-mergeDebugResources-27:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-main-30:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-mergeDebugResources-27:\\layout\\exambitslayout.xml",
+        "source": "C:\\Users\\91703\\.gradle\\daemon\\7.3.3\\com.example.onlinecourses.app-main-30:\\layout\\exambitslayout.xml"
+    }
+]

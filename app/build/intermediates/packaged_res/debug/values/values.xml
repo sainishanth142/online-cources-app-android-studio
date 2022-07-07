@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="backg">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="orange">#DA7151</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="statusbarcolor">#05292E</color>
+    <color name="subcol">#BA5A0F</color>
+    <color name="teal_200">#E86528</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="tolcol">#FF6F00</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">online courses</string>
+    <string name="default_web_client_id" translatable="false">1014404864768-5gt7gv8q34qdold4136deqtvtesv1q5f.apps.googleusercontent.com</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="firebase_database_url" translatable="false">https://skilldevelopmentapp-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1014404864768</string>
+    <string name="google_api_key" translatable="false">AIzaSyCD9vuRSso3FiTYnPj-bAnGPIFe_o1ohpk</string>
+    <string name="google_app_id" translatable="false">1:1014404864768:android:cacc56cea3a6c54f0671e5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCD9vuRSso3FiTYnPj-bAnGPIFe_o1ohpk</string>
+    <string name="google_storage_bucket" translatable="false">skilldevelopmentapp.appspot.com</string>
+    <string name="project_id" translatable="false">skilldevelopmentapp</string>
+    <string name="title_activity_exam">exam</string>
+    <style name="Theme.OnlineCourses" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/teal_200</item>
+        <item name="colorPrimaryVariant">#FF6F00</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="Theme.OnlineCourses.Fullscreen" parent="Theme.OnlineCourses">
+        <item name="android:actionBarStyle">@style/Widget.Theme.OnlineCourses.ActionBar.Fullscreen
+        </item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+    <style name="ThemeOverlay.OnlineCourses.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+    <style name="Widget.Theme.OnlineCourses.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+    <style name="Widget.Theme.OnlineCourses.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+    <declare-styleable name="FullscreenAttrs">
+        <attr format="color" name="fullscreenBackgroundColor"/>
+        <attr format="color" name="fullscreenTextColor"/>
+    </declare-styleable>
+</resources>
