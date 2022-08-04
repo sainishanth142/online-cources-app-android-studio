@@ -9,10 +9,10 @@
             android:title="Profile"/>
         <item
             android:id="@+id/dc"
-            android:title="Daily Challenge"/>
+            android:title="Exams"/>
         <item
             android:id="@+id/courses"
-            android:title="Courses"/>
+            android:title="Add QUIZ"/>
         <item
             android:id="@+id/articles"
             android:title="Articles"/>

@@ -8,7 +8,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -19,7 +18,7 @@ import java.lang.String;
 
 public final class ActivitySelectexamBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
   public final LinearLayout linearLayout;
@@ -30,7 +29,7 @@ public final class ActivitySelectexamBinding implements ViewBinding {
   @NonNull
   public final TextView topicname;
 
-  private ActivitySelectexamBinding(@NonNull ConstraintLayout rootView,
+  private ActivitySelectexamBinding(@NonNull LinearLayout rootView,
       @NonNull LinearLayout linearLayout, @NonNull RecyclerView recyclerview,
       @NonNull TextView topicname) {
     this.rootView = rootView;
@@ -41,7 +40,7 @@ public final class ActivitySelectexamBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -84,7 +83,7 @@ public final class ActivitySelectexamBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivitySelectexamBinding((ConstraintLayout) rootView, linearLayout, recyclerview,
+      return new ActivitySelectexamBinding((LinearLayout) rootView, linearLayout, recyclerview,
           topicname);
     }
     String missingId = rootView.getResources().getResourceName(id);

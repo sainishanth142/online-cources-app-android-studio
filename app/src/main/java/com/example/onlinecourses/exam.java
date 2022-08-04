@@ -7,6 +7,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
@@ -60,7 +61,7 @@ public class exam extends AppCompatActivity {
         adapter=new quesnoadapter(this,list,vp);
         rv.setAdapter(adapter);
         adapter.notifyDataSetChanged();
-        vpadapter=new examviewpageradapter(this,list,vp,adapter);
+        vpadapter=new examviewpageradapter(this,list,vp,adapter,exam.this);
         vp.setAdapter(vpadapter);
         FirebaseDatabase database=FirebaseDatabase.getInstance();
         DatabaseReference reference=database.getReference("exams").child(getIntent().getStringExtra("examno")).child("questions");
@@ -106,4 +107,6 @@ public class exam extends AppCompatActivity {
         });
 
     }
+
+
 }

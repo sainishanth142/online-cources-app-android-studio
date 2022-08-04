@@ -62,6 +62,14 @@ public class home extends AppCompatActivity{
                 return true;
             }
         });
+        nav.getMenu().getItem(2).setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem menuItem) {
+                Intent intent=new Intent(home.this,makequiz.class);
+                startActivity(intent);
+                return true;
+            }
+        });
         nav.getMenu().getItem(0).setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(MenuItem menuItem) {
@@ -174,5 +182,8 @@ public class home extends AppCompatActivity{
         });
         menu.show();
     }
-
+    public void messages(View view) {
+        Intent intent=new Intent(home.this,chat.class);
+        startActivity(intent);
+    }
 }

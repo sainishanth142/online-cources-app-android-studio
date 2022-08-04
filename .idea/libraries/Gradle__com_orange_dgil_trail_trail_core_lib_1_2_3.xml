@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.orange.dgil.trail:trail-core-lib:1.2.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.orange.dgil.trail/trail-core-lib/1.2.3/ece96247338dbc58fc02ec5e2af450cd707c1957/trail-core-lib-1.2.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.orange.dgil.trail/trail-core-lib/1.2.3/d7b18c007f4f30c2d2713fd6d5eb1b48aded79a8/trail-core-lib-1.2.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.orange.dgil.trail/trail-core-lib/1.2.3/419d5476613bcb0f0dd2c5851a948fb5cdfa4bfd/trail-core-lib-1.2.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

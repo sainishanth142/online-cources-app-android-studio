@@ -53,10 +53,14 @@ public final class ExambitslayoutBinding implements ViewBinding {
   @NonNull
   public final Button sn;
 
+  @NonNull
+  public final TextView time;
+
   private ExambitslayoutBinding(@NonNull ConstraintLayout rootView, @NonNull Button back,
       @NonNull Button clear, @NonNull RadioButton opt1, @NonNull RadioButton opt2,
       @NonNull RadioButton opt3, @NonNull RadioButton opt4, @NonNull TextView question,
-      @NonNull RadioGroup radgro, @NonNull ScrollView scrollView2, @NonNull Button sn) {
+      @NonNull RadioGroup radgro, @NonNull ScrollView scrollView2, @NonNull Button sn,
+      @NonNull TextView time) {
     this.rootView = rootView;
     this.back = back;
     this.clear = clear;
@@ -68,6 +72,7 @@ public final class ExambitslayoutBinding implements ViewBinding {
     this.radgro = radgro;
     this.scrollView2 = scrollView2;
     this.sn = sn;
+    this.time = time;
   }
 
   @Override
@@ -157,8 +162,14 @@ public final class ExambitslayoutBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.time;
+      TextView time = ViewBindings.findChildViewById(rootView, id);
+      if (time == null) {
+        break missingId;
+      }
+
       return new ExambitslayoutBinding((ConstraintLayout) rootView, back, clear, opt1, opt2, opt3,
-          opt4, question, radgro, scrollView2, sn);
+          opt4, question, radgro, scrollView2, sn, time);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

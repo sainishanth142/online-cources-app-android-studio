@@ -28,6 +28,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/edtxbg"
                 android:layout_margin="10dp"
+                android:textColorHint="@color/black"
                 android:padding="10dp"
                 android:id="@+id/firstname"
                 android:hint="First Name"
@@ -35,6 +36,7 @@
             <EditText
                 android:layout_width="180dp"
                 android:layout_weight="1"
+                android:textColorHint="@color/black"
                 android:background="@drawable/edtxbg"
                 android:padding="10dp"
                 android:layout_margin="10dp"
@@ -45,6 +47,7 @@
         <EditText
             android:layout_width="match_parent"
             android:background="@drawable/edtxbg"
+            android:textColorHint="@color/black"
             android:padding="10dp"
             android:layout_margin="20dp"
             android:id="@+id/collegename"
@@ -54,6 +57,7 @@
             android:layout_width="match_parent"
             android:background="@drawable/edtxbg"
             android:padding="10dp"
+            android:textColorHint="@color/black"
             android:layout_margin="20dp"
             android:id="@+id/registernumber"
             android:hint="College Register Number(optional)"
@@ -63,6 +67,7 @@
             android:background="@drawable/edtxbg"
             android:padding="10dp"
             android:layout_margin="20dp"
+            android:textColorHint="@color/black"
             android:id="@+id/mobilenumber"
             android:hint="Mobile Number"
             android:inputType="number"
@@ -71,6 +76,7 @@
             android:layout_width="match_parent"
             android:background="@drawable/edtxbg"
             android:padding="10dp"
+            android:textColorHint="@color/black"
             android:inputType="textEmailAddress"
             android:layout_margin="20dp"
             android:id="@+id/email"
@@ -78,6 +84,7 @@
             android:layout_height="wrap_content"/>
         <EditText
             android:layout_width="match_parent"
+            android:textColorHint="@color/black"
             android:background="@drawable/edtxbg"
             android:padding="10dp"
             android:inputType="textPassword"
@@ -85,12 +92,29 @@
             android:id="@+id/password"
             android:hint="Create a Password"
             android:layout_height="wrap_content"/>
-        <Button
-            android:layout_marginTop="20dp"
-            android:layout_width="wrap_content"
-            android:onClick="register"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Register"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginLeft="30dp"
+                android:onClick="back"
+                android:layout_width="40dp"
+                android:backgroundTint="@color/black"
+                android:background="@drawable/ic_baseline_arrow_back_24"
+                android:layout_height="40dp"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_weight="1"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_marginRight="40dp"
+                android:onClick="register"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Register"/>
+        </LinearLayout>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

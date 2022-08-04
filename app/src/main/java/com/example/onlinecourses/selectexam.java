@@ -4,7 +4,9 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -45,5 +47,11 @@ public class selectexam extends AppCompatActivity {
         r.setAdapter(adapter);
 
 
+    }
+
+    public void back(View view) {
+        Intent intent=new Intent(selectexam.this,home.class);
+        startActivity(intent);
+        finish();
     }
 }

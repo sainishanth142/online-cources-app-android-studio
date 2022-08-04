@@ -7,7 +7,7 @@
     <color name="teal_700">#B2CEF4F4</color>
     <color name="black">#FFFFFF</color>
     <color name="backg">#BA09444C</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="white">#000000</color>
     <color name="tolcol">#0D6470</color>
     <color name="statusbarcolor">#C6000000</color>
     <color name="orange">#DA7151</color>

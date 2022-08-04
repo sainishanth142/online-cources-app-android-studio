@@ -25,6 +25,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.OnlineCourses" >
         <activity
+            android:name="com.example.onlinecourses.makequiz"
+            android:exported="false" />
+        <activity
+            android:name="com.example.onlinecourses.chatting"
+            android:exported="false" />
+        <activity
+            android:name="com.example.onlinecourses.chat"
+            android:exported="false" />
+        <activity
             android:name="com.example.onlinecourses.selectexam"
             android:exported="false" />
         <activity

@@ -2464,6 +2464,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable addicon
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn_checkbox_checked_mtrl
@@ -2474,6 +2475,8 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable chatleftbackgroung
+drawable chatrightbackground
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -2499,7 +2502,9 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable dots
+drawable edittextbackground
 drawable edtxbg
+drawable fileicon
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_baseline_arrow_back_24
@@ -2514,6 +2519,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable itembackground
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2533,6 +2539,7 @@ drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
 drawable menu
+drawable messageicon
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -2558,6 +2565,8 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable rankup
 drawable search
+drawable sendicon
+drawable signinpopuplayoutbackgroung
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2632,6 +2641,7 @@ id action_mode_bar_stub
 id action_mode_close_button
 id action_text
 id actions
+id activestate
 id activity_chooser_view_content
 id add
 id adjust_height
@@ -2677,6 +2687,14 @@ id center_vertical
 id chain
 id chain2
 id chains
+id chatET
+id chatimage
+id chatimagetime
+id chatpeopleitemlayout
+id chatpeoplerecyclerview
+id chattextlayout
+id chattingrecyclerview
+id chattingtextitem
 id checkbox
 id checked
 id chip
@@ -2684,6 +2702,10 @@ id chip1
 id chip2
 id chip3
 id chip_group
+id chooseimageagainBUT
+id chooseimagefromcameraBUT
+id chooseimagefromgalleryBUT
+id choosenimageIV
 id chronometer
 id circle_center
 id clear
@@ -2734,6 +2756,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id document
 id dra
 id dragAnticlockwise
 id dragClockwise
@@ -2795,6 +2818,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageselectiondoneBUT
 id immediateStop
 id included
 id info
@@ -2808,6 +2832,7 @@ id item4
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
+id l
 id labeled
 id lastname
 id lay
@@ -2925,6 +2950,8 @@ id password_toggle
 id path
 id pathRelative
 id peekHeight
+id peopleimage
+id peoplename
 id percent
 id pin
 id position
@@ -3059,6 +3086,7 @@ id titleDividerNoCustom
 id title_template
 id toggle
 id toolbar
+id toolbar2
 id top
 id topPanel
 id topicname
@@ -3079,10 +3107,12 @@ id unlabeled
 id up
 id useLogo
 id username
+id usernameet
 id usname
 id vertical_only
 id vi
 id vi1
+id video
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3187,15 +3217,22 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_chat
+layout activity_chatting
 layout activity_exam
 layout activity_home
 layout activity_login
 layout activity_main
+layout activity_makequiz
 layout activity_profile
 layout activity_selectexam
 layout activity_signin
 layout activity_topics
 layout activity_viewtopics
+layout chatpeopleitem
+layout chattingleftitem
+layout chattingrightitem
+layout chooseimagecamaraorgallery
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3213,10 +3250,13 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout exambitslayout
+layout exambitslayoutpost
 layout examquesshowlayout
+layout examquestionshowlayoutpost
 layout homeitem
 layout imageview
 layout itemtextview
+layout leftchattingimage
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3270,9 +3310,11 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout rightchattingimage
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout showchoosenimagelayout
 layout showdetailsofcoursesre
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
@@ -3293,6 +3335,7 @@ layout text_view_without_line_height
 layout viewtopicitem
 menu example_menu
 menu example_menu2
+menu fileselectionmenu
 menu menu
 menu navmenu
 mipmap ic_launcher

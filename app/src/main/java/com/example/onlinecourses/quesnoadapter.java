@@ -24,8 +24,6 @@ public class quesnoadapter extends RecyclerView.Adapter<quesnoadapter.viewholder
         this.context = context;
         this.list = list;
         this.vp=vp;
-
-
     }
 
     @NonNull

@@ -4,6 +4,15 @@ public class exammodel {
     String question,opt1,opt2,opt3,opt4;
     int choosenopt;
     int currques;
+    String time="00:00:00";
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
+    }
 
     public int getCurrques() {
         return currques;

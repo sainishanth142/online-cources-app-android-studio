@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
@@ -78,10 +77,14 @@
                     android:layout_weight="1"
                     android:text="back"
                     />
-                <View
-                    android:layout_width="8dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:text="time"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"/>
                 <Button
                     android:id="@+id/sn"
                     android:layout_marginRight="20dp"
@@ -96,9 +99,12 @@
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:text="clear response"/>
+<!--            <RelativeLayout-->
+<!--                android:id="@+id/idRLView"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="300dp"-->
+<!--                tools:context=".MainActivity">-->
+<!--            </RelativeLayout>-->
         </LinearLayout>
     </ScrollView>
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

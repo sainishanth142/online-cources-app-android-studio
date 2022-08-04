@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:background="@drawable/edittextbackground"
+                android:layout_margin="5dp"
+                android:id="@+id/question"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="20dp"
+                android:hint="QUESTION"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/opt1"
+                android:background="@drawable/edittextbackground"
+                android:padding="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="option1"
+                android:textSize="25sp"/>
+            <EditText
+                android:id="@+id/opt2"
+                android:background="@drawable/edittextbackground"
+                android:padding="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="option2"
+                android:textSize="25sp"/>
+
+            <EditText
+                android:id="@+id/opt3"
+                android:background="@drawable/edittextbackground"
+                android:padding="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="option3"
+                android:textSize="25sp"/>
+
+            <EditText
+                android:id="@+id/opt4"
+                android:background="@drawable/edittextbackground"
+                android:padding="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="option4"
+                android:textSize="25sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/back"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="back"
+                    />
+                <View
+
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    />
+                <Button
+                    android:id="@+id/sn"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SAVE &amp; next"
+                    />
+            </LinearLayout>
+            <EditText
+                android:background="@drawable/edittextbackground"
+                android:id="@+id/clear"
+                android:layout_width="wrap_content"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:hint="correct option(1|2|3|4)"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

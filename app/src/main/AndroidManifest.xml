@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OnlineCourses">
         <activity
+            android:name=".makequiz"
+            android:exported="false" />
+        <activity
+            android:name=".chatting"
+            android:exported="false" />
+        <activity
+            android:name=".chat"
+            android:exported="false" />
+        <activity
             android:name=".selectexam"
             android:exported="false" />
         <activity

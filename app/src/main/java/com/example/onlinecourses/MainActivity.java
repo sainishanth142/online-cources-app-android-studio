@@ -1,5 +1,6 @@
 package com.example.onlinecourses;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -9,6 +10,11 @@ import android.view.View;
 import android.widget.EditText;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
@@ -31,14 +37,28 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        FirebaseDatabase database=FirebaseDatabase.getInstance();
+        DatabaseReference reference=database.getReference("about");
         rec=findViewById(R.id.recyclerview);
         list=new ArrayList<>();
         showdetailsadapter adapter=new showdetailsadapter(list,this);
         rec.setAdapter(adapter);
-        showdetailsmodal item1=new showdetailsmodal("https://cdn.educba.com/academy/wp-content/uploads/2019/10/Python-Features.png","Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. ... Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse.");
-        list.add(item1);
-        list.add(item1);list.add(item1);list.add(item1);list.add(item1);
-        adapter.notifyDataSetChanged();
+        reference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                list.clear();
+                for(DataSnapshot snapshot:dataSnapshot.getChildren()){
+                    showdetailsmodal item1=new showdetailsmodal(snapshot.child("image").getValue(String.class),snapshot.child("data").getValue(String.class));
+                    list.add(item1);
+                }
+                adapter.notifyDataSetChanged();
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
     }
 
     public void loginbt(View view) {
